@@ -11,10 +11,10 @@ VALUES ('CEO', 250000.00, 1),
        ('CFO', 180000.00, 2),
        ('HRM', 150000.00, 2),
        ('CRDO', 150000.00, 3),
-       ('Salesman', 100000.00, 1);
-       ('Salesman', 100000.00, 1);
-       ('Salesman', 100000.00, 1);
-       ('Salesman', 100000.00, 1);
+       ('Salesman 2', 100000.00, 1),
+       ('Salesman 3', 100000.00, 1),
+       ('Salesman 4', 100000.00, 1),
+       ('Salesman 5', 100000.00, 1);
        
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)

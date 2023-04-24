@@ -1,3 +1,0 @@
--- SELECT employee.id, employee.first_name, employee.last_name, roles.title, roles.salary
--- FROM employee
--- LEFT JOIN roles ON employee.role_id = roles.id
