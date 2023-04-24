@@ -1,3 +1,17 @@
+
+# Employee Tracker
+  # Table of Contents
+1. [License](#license)
+2. [Description](#description)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [Tests](#tests)
+7. [Questions](#questions)
+  ## license
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  MIT
+  ## description
 # USER STORY
 
 AS A business owner
@@ -23,3 +37,17 @@ WHEN I choose to add an employee
 THEN I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database
 WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database
+  ## installation
+  N/A
+  ## usage
+  Run the app in an integrated Terminal and answer the questions.
+  ## contributing
+  I am the sole contributor
+  ## tests
+  n/a
+  ## questions
+  "Below is listed my contact information and github profile if you have further questions."
+
+  [Willisson7 on GitHub](https://github.com/Willisson7)
+  
+  thegwillis@gmail.com
