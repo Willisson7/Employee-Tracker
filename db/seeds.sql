@@ -6,18 +6,22 @@ VALUES ("Sales"),
        
 
 INSERT INTO roles (title, salary, department_id)
-VALUES ('CEO', 250000.00, 1),
-       ('COO', 200000.00, 1),
-       ('CFO', 180000.00, 2),
-       ('HRM', 150000.00, 2),
-       ('CRDO', 150000.00, 3),
-       ('Salesman 2', 100000.00, 1),
-       ('Salesman 3', 100000.00, 1),
-       ('Salesman 4', 100000.00, 1),
-       ('Salesman 5', 100000.00, 1);
+VALUES ('Salesperson', 250000.00, 1),
+       ('Lead Engineer', 200000.00, 2),
+       ('Software Engineer', 180000.00, 2),
+       ('Account Manager', 150000.00, 4),
+       ('Accountant', 150000.00, 4),
+       ('Legal Team Lead', 100000.00, 3),
+       ('Lawyer', 100000.00, 3);
+    
        
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Maleficent","Bystander", 1, NULL),
-       ("Jafar", "Ugleman", 1, 2),
-       ("Taka", "Scar", 2, 3);
+VALUES ('Peter','Banning', 1, NULL),
+       ('Genie', 'Aladdin', 7, 3),
+       ('John', 'Keating', 6, NULL),
+       ('Patch', 'Adams', 2, NULL),
+       ('Daniel', 'Hillard', 3, 4),
+       ('Robina', 'Doubtfire', 7, 3),
+       ('Teddy', 'Roosevelt', 4, NULL),
+       ('Sean', 'Maguire', 5, 7);
